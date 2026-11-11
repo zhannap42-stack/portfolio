@@ -200,6 +200,16 @@ section { scroll-margin-top: 24px; }
 .project-page-modification { background: #ecebf0; }
 .project-page-dark { background: #1a1722; color: #fff; color-scheme: dark; }
 
+@media (min-width: 1201px) {
+  .project-page-modification {
+    /* Match the cover's edge colors over its displayed height (1200 × 2005/2371). */
+    background: linear-gradient(
+      #eeedf2, #f0eff2 5% 17%, #f1f1f3 25% 55%,
+      #f0eff2 60%, #efeef3 65%, #eeedf0 75%, #ececf0 85% 100%
+    ) top / 100% calc(1200px * 2005 / 2371) no-repeat #ecebf0;
+  }
+}
+
 .project-nav {
   position: sticky;
   z-index: 2;
