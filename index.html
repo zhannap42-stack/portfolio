@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Портфолио продуктового дизайнера Жанны Поломкиной. Кейсы в travel tech.">
+  <meta name="theme-color" content="#ececef">
+  <title>Жанна Поломкина — продуктовый дизайнер</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" style="position: absolute">
+    <defs><path id="case-arrow" d="M15.1445 14.2002C15.1442 14.7246 14.7188 15.1504 14.1943 15.1504H14.1357C13.6111 15.1504 13.1857 14.7248 13.1855 14.2002V8.20312L6.84863 14.54C6.47763 14.911 5.87588 14.911 5.50488 14.54L5.45996 14.4951C5.08896 14.1241 5.08896 13.5224 5.45996 13.1514L11.7969 6.81445H5.7998C5.27522 6.81435 4.84961 6.38886 4.84961 5.86426V5.80566C4.84961 5.28121 5.27535 4.85578 5.7998 4.85547L15.1504 4.84961L15.1445 14.2002Z"/></defs>
+  </svg>
+  <header class="header inset page">
+    <nav aria-label="Разделы портфолио">
+      <a href="#about">Обо мне</a>
+      <a href="#achievements">Достижения</a>
+      <a href="#cases">Кейсы</a>
+    </nav>
+    <h1>Портфолио<br>продуктового дизайнера</h1>
+  </header>
+
+  <main>
+    <section class="intro inset page" id="about" aria-labelledby="about-title">
+      <img class="portrait" src="assets--portrait.webp" width="395" height="482" alt="Жанна Поломкина">
+      <div class="bio">
+        <h2 id="about-title">Поломкина Жанна</h2>
+        <ul>
+          <li>4 года в travel tech проектирую решения для отелей — от модуля бронирования до ИИ-ассистента и личного кабинета отельера.</li>
+          <li>Запустила MVP ИИ-чат для сайтов отелей.</li>
+          <li>Участвовала в разработке продуктов RND.</li>
+          <li>В основе работы — CustDev, проверка гипотез через исследования, A/B-тесты и аналитику.</li>
+        </ul>
+        <address>
+          <a href="https://t.me/jo_vex">tg: jo_vex</a>
+          <a href="https://vk.com/jo_vex">vk: jo_vex</a>
+          <a href="mailto:501219@mail.ru">501219@mail.ru</a>
+        </address>
+      </div>
+    </section>
+
+    <section class="achievements" id="achievements" aria-labelledby="achievements-title">
+      <div class="page inset">
+        <h2 id="achievements-title">Достижения</h2>
+        <div class="achievement-grid">
+          <article class="achievement">
+            <h3>MVP ИИ-помощник для сайтов отелей</h3>
+            <ul>
+              <li>720 бронирований<br>за 1,5 месяца пилота</li>
+              <li>Рост среднего чека +10%</li>
+            </ul>
+            <img src="assets--rocket.webp" alt="" width="70" height="70">
+          </article>
+          <article class="achievement">
+            <h3>Редизайн модификации</h3>
+            <ul>
+              <li>Снижение переброней<br>на 24%</li>
+              <li>Рост докупки услуг в 3 раза</li>
+            </ul>
+            <img src="assets--refresh.webp" alt="" width="70" height="70">
+          </article>
+          <article class="achievement">
+            <h3>Геймификация для разработчиков</h3>
+            <ul>
+              <li>Рост продуктивности<br>на 15%</li>
+            </ul>
+            <img src="assets--target.webp" alt="" width="70" height="70">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cases inset page" id="cases" aria-labelledby="cases-title">
+      <h2 id="cases-title">Кейсы</h2>
+      <article class="case" id="assistant-case">
+        <img class="case-cover" src="assets--assistant.webp" width="1950" height="1728" alt="Модуль бронирования с ИИ-помощником на компьютере и телефоне" loading="lazy">
+        <div class="case-body">
+          <h3>MVP запуск ИИ–помощника</h3>
+          <ul>
+            <li><strong>Исследование</strong> — анализ болей пользователей и JTBD для выявления проблем, CJM, User Flow</li>
+            <li><strong>Discovery</strong> — юзабилити тестирование прототипов</li>
+            <li><strong>Проектирование</strong> продукта с нуля совместно с ML-командой</li>
+            <li><strong>Результат</strong> — конверсия +6%, средний чек +10%</li>
+          </ul>
+          <a class="case-link" href="ai-assistant.html" aria-label="Подробнее о запуске ИИ-помощника">Подробнее <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><use href="#case-arrow" fill="currentColor"/></svg></a>
+        </div>
+      </article>
+
+      <article class="case" id="modification-case">
+        <img class="case-cover" src="assets--modification.webp" width="1950" height="1834" alt="Экраны изменения бронирования на компьютере и телефоне" loading="lazy">
+        <div class="case-body">
+          <h3>Редизайн модификации брони</h3>
+          <ul>
+            <li><strong>Исследование</strong> — анализ болей пользователей и JTBD для выявления проблем</li>
+            <li><strong>Discovery</strong> — проверка гипотез через A/B-тестирование в несколько итераций</li>
+            <li><strong>Редизайн архитектуры</strong></li>
+            <li><strong>Результат</strong> — снижение переброней на 24%, рост докупки услуг в 3 раза</li>
+          </ul>
+          <a class="case-link" href="booking-modification.html" aria-label="Подробнее о редизайне модификации брони">Подробнее <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><use href="#case-arrow" fill="currentColor"/></svg></a>
+        </div>
+      </article>
+
+      <article class="case" id="booking-case">
+        <img class="case-cover" src="assets--booking.webp" width="1950" height="1834" alt="Экраны модуля бронирования для компьютера и телефона" loading="lazy">
+        <div class="case-body">
+          <h3>Редизайн формы бронирования</h3>
+          <ul>
+            <li><strong>Исследование</strong> — глубинные интервью, юзабилити тестирования, анализ болей пользователей</li>
+            <li><strong>Discovery</strong> — немодерируемые опросы и тесты, проверка гипотез через A/B-тестирование в несколько итераций, юзабилити тестирование</li>
+            <li><strong>A/B тесты на 370 000 сессий</strong></li>
+            <li><strong>Результат</strong> — конверсия в чекаут +10.7%</li>
+          </ul>
+          <a class="case-link" href="booking-redesign.html" aria-label="Подробнее о редизайне формы бронирования">Подробнее <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><use href="#case-arrow" fill="currentColor"/></svg></a>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
