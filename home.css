@@ -49,10 +49,10 @@ svg { flex-shrink: 0; }
   text-transform: uppercase;
 }
 
-.t-display { font-size: 36px; line-height: 1.04; letter-spacing: -.035em; font-weight: 400; }
-.t-h3 { font-size: 26px; line-height: 1.15; letter-spacing: -.02em; font-weight: 400; }
+.t-display { font-size: 30px; line-height: 1.04; letter-spacing: -.035em; font-weight: 400; }
+.t-h3 { font-size: 22px; line-height: 1.15; letter-spacing: -.02em; font-weight: 400; }
 .t-lead { font-size: 22px; line-height: 1.35; letter-spacing: -.015em; }
-.t-num { font-size: 44px; line-height: 1; letter-spacing: -.04em; font-weight: 400; }
+.t-num { font-size: 36px; line-height: 1; letter-spacing: -.04em; font-weight: 400; }
 .t-large { font-size: 18px; line-height: 1.45; }
 
 .hero-frame, .contacts { padding: 14px; }
@@ -199,6 +199,9 @@ svg { flex-shrink: 0; }
   .hero-brand { font-size: 15px; gap: 8px; }
   .btn-secondary { padding-inline: 10px; gap: 6px; }
   .hero-header { gap: 8px; }
+}
+@media (width < 768px) {
+  .contact-info .t-large { font-size: 16px; }
 }
 @media (min-width: 640px) {
   .btn-primary { display: inline-block; }
