@@ -225,7 +225,7 @@ section { scroll-margin-top: 24px; }
   min-height: 44px;
   padding: 8px 14px 8px 12px;
   border: 1px solid #ffffff45;
-  border-radius: 999px;
+  border-radius: 10px;
   background: linear-gradient(145deg, #5455a0df, #353680d9);
   box-shadow: inset 0 1px 2px #ffffff36, 0 6px 20px #0e0c3014;
   -webkit-backdrop-filter: blur(10px) saturate(145%);
@@ -238,6 +238,11 @@ section { scroll-margin-top: 24px; }
 .project-back:hover {
   background: linear-gradient(145deg, #484992ec, #303174e8);
   text-decoration: none;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .project-back svg { transition: transform .3s; }
+  .project-back:hover svg { transform: translateX(-4px); }
 }
 
 .project-block img, img.project-block {
